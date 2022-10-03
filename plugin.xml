@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
+        id="cordova-plugin-camera-swt"
+        version="1.0">
+
+  <name>Layout Plugin</name>
+
+  <platform name="swt">
+    <config-file target="res/xml/config.xml" parent="/*">
+      <feature name="Camera">
+        <param name="android-package" value="org.apache.cordova.camera.CameraLauncher"/>
+      </feature>
+    </config-file>  
+    <source-file src="src/main/java/org/apache/cordova/camera/CameraLauncher.java" target-dir="src/org/apache/cordova/camera"/>
+    <source-file src="src/main/java/org/apache/cordova/camera/WebCameraPanel.java" target-dir="src/org/apache/cordova/camera"/>
+   	<framework src="core.gradle" custom="true" type="gradleReference" />
+  </platform>
+</plugin>
