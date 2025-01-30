@@ -2,10 +2,13 @@
 
 Adds camera support for swt platform. For other platform use https://github.com/AsheraCordova/cordova-plugin-camera.
 
-Important links:
+## Installation
+To install the plugin use:
+```
+cordova plugin add https://github.com/AsheraCordova/cordova-plugin-camera.git
+```
 
-Important Links:
-
+## Important Links
 https://asheracordova.github.io/
 
 https://asheracordova.github.io/doc/help-doc.html
@@ -13,8 +16,3 @@ https://asheracordova.github.io/doc/help-doc.html
 https://github.com/AsheraCordova/cordova-plugin-camera
 
 https://github.com/sarxos/webcam-capture
-
-To install the plugin use:
-```
-cordova plugin add https://github.com/AsheraCordova/cordova-plugin-camera.git
-```
